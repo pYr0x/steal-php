@@ -23,13 +23,13 @@ echo "<br>";
 print_r("QUERY:". $_SERVER['QUERY_STRING']);
 ?>
 
-<script type="text/javascript"
-        src="/stealphp/modules/Upload/main-steal/node_modules/steal/steal.js"
-        config-main="package.json!npm"
-        base-url="/stealphp/modules/Upload/main-steal"
-        main="main"></script>
-
 <!--<script type="text/javascript"-->
 <!--        src="/stealphp/modules/Upload/main-steal/node_modules/steal/steal.js"-->
-<!--        config="/stealphp/modules/Upload/main-steal/package.json!npm"-->
+<!--        config-main="package.json!npm"-->
+<!--        base-url="/stealphp/modules/Upload/main-steal"-->
 <!--        main="main"></script>-->
+
+<script type="text/javascript"
+        src="/stealphp/modules/Upload/main-steal/node_modules/steal/steal.js"
+        config="/stealphp/modules/Upload/main-steal/package.json!npm"
+        main="main"></script>
