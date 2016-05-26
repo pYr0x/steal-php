@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+  # Options +SymLinksIfOwnerMatch
+    RewriteEngine On
+  # RewriteBase /
+
+  ## never rewrite for existing files, directories and links
+    RewriteCond %{REQUEST_FILENAME} !\.(gif|jpe?g|png|bmp|js|css|swf|ico|txt|pdf|)$
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+
+  ## rewrite everything else to index.php
+    RewriteRule .* index.php [L]
+
+</IfModule>

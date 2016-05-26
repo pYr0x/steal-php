@@ -1,0 +1,25 @@
+{
+  "name": "steal-php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pYr0x/steal-php.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pYr0x/steal-php/issues"
+  },
+  "homepage": "https://github.com/pYr0x/steal-php#readme",
+  "dependencies": {
+    "steal": "^0.16.16"
+  },
+  "system": {
+    "npmAlgorithm": "flat"
+  }
+}
